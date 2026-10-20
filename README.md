@@ -37,8 +37,8 @@ The demo dataset is organized as follows:
 ```text
 AVGT_Demo/
 ├── Stage1-RawMultimodalRecordings/
-│   ├── multi_camera_lidar_20251129-1006.bag (LiDAR & multi-view cameras)
-│   └── scene1-11291006-1764382014.026008129-right-12.462991871-17.793991871.wav (16-channel audios)
+│   ├── multi_camera_lidar_20251129-1006.bag (LiDAR & surround-view cameras)
+│   └── scene1-11291006-1764382014.026008129-right-12.462991871-17.793991871.wav (multi-channel audio)
 ├── Stage2-LabeledClips/
 │   ├── scene1-11291006-1764382024.489000000-rightapproach.bag
 │   ├── scene1-11291006-1764382024.489000000-rightapproach.wav
