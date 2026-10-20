@@ -6,7 +6,9 @@ AVGT: A Multimodal Dataset Integrating **A**udio, **V**isual, and **G**eometric 
 
 ### Overview
 
-AVGT is a multimodal dataset collected at real-world T-junctions, integrating **Audio, Visual, and Geometric information**. It provides temporally aligned acoustic observations, surround-view images, and LiDAR point clouds, enabling researchers to investigate multimodal perception and the interactions between vehicle-generated sounds and surrounding scene structures.
+AVGT is a multimodal dataset integrating **Audio, Visual, and Geometric information** collected at real-world T-junctions. It provides acoustic recordings, surround-view images, and LiDAR point clouds captured under naturalistic traffic conditions.
+
+A key feature of AVGT is the integration of acoustic observations with temporally aligned scene structural information derived from surround-view images and LiDAR point clouds. Unlike existing datasets that primarily focus on audio recordings, AVGT enables researchers to investigate the relationship between vehicle-generated sounds and surrounding scene structures, particularly under non-line-of-sight (NLoS) conditions where sound propagation is influenced by environmental obstacles.
 
 The dataset was collected at three real-world T-junctions in Beijing, China, covering two typical scene configurations with different structural conditions around the intersections.
 
