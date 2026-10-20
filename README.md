@@ -16,9 +16,28 @@ The dataset was collected at three real-world T-junctions in Beijing, China, cov
 
 The complete AVGT dataset contains:
 
-- **3** real-world T-junctions
-- **585 s** of multimodal recordings
-- **73** annotated multimodal clips
-- **45,718** multimodal sample triplets
-- **6** vehicle-state categories
+- Collection sites: **3** real-world T-junctions
+- Raw recording duration: **585 s** of multimodal recordings （**111.13 GB**）
+- Labeled multimodal clips: **73**
+- Multimodal sample triplets: **45,718** (each sample triplet associates an audio segment with temporally corresponding surround-view image frames and a LiDAR point cloud frame.)
+- Target vehicle states: **6** classes
 
+### Demo Data
+
+This repository provides a subset of the AVGT dataset for demonstration, allowing researchers to inspect real-world multimodal recordings and their corresponding annotations.
+
+The complete AVGT dataset contains **45,718 multimodal sample triplets**. Currently, only selected samples are publicly available. **The complete dataset will be released upon acceptance of the accompanying paper.**
+
+### Research Applications
+
+AVGT is designed to support research on:
+
+Non-line-of-sight vehicle detection
+
+Audio-visual-geometric multimodal learning
+
+Acoustic-spatial interaction modeling
+
+Scene structure-aware acoustic perception
+
+Traffic behavior analysis
