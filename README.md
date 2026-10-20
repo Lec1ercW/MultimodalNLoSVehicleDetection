@@ -14,17 +14,17 @@ The dataset was collected at three real-world T-junctions in Beijing, China, cov
 
 The complete AVGT dataset contains:
 
-- **3** real-world T-junctions
-- **585 s** of multimodal recordings (**111.13 GB**)
-- **73** labeled multimodal clips
-- **45,718** multimodal sample triplets
-- **6** vehicle-state classes
+- *3* real-world T-junctions
+- *585 s* of multimodal recordings (*111.13 GB*)
+- *73* labeled multimodal clips
+- *45,718* multimodal sample triplets
+- *6* vehicle-state classes
 
 ### Demo Data
 
 This repository provides a subset of the AVGT dataset for demonstration, allowing researchers to inspect real-world multimodal recordings and their corresponding annotations.
 
-Currently, only selected samples are publicly available. **The complete dataset will be released upon acceptance of the accompanying paper.**
+A subset of the AVGT dataset is currently available for demonstration. **The full dataset will be made publicly available following the acceptance of our paper.**
 
 ### Research Applications
 
