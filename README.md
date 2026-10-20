@@ -28,6 +28,38 @@ This repository provides a subset of the AVGT dataset for demonstration, allowin
 
 A subset of the AVGT dataset is currently available for demonstration, **with the full dataset to be released once the paper is accepted.**
 
+**Download:** [Google Drive](https://drive.google.com/drive/folders/1PNZXzOOLI3UsdlA_hG3CumOaeASM6P8o?usp=sharing)
+
+#### Folder Structure
+
+The demo dataset is organized as follows:
+
+```text
+AVGT_Demo/
+├── Stage1-RawMultimodalRecordings/
+│   ├── multi_camera_lidar_20251129-1006.bag (LiDAR & multi-view cameras)
+│   └── scene1-11291006-1764382014.026008129-right-12.462991871-17.793991871.wav (16-channel audios)
+├── Stage2-LabeledClips/
+│   ├── scene1-11291006-1764382024.489000000-rightapproach.bag
+│   ├── scene1-11291006-1764382024.489000000-rightapproach.wav
+│   └── ...
+├── Stage3-SampleTriplet/
+│   ├── MULTI_CHANNEL_AUDIO/
+│   │   ├── scene1-11291006-1764382024.739000000-rightapproach.wav
+│   │   └── ...
+│   ├── LIDAR_TOP/
+│   │   ├── scene1-11291006-1764382024.739000000-rightapproach.bin
+│   │   └── ...
+│   ├── CAM_FRONT/
+│   │   ├── scene1-11291006-1764382024.739000000-rightapproach.jpg
+│   │   └── ...
+│   └── ...
+└── Stage4-NetworkInputImages/
+    ├── BevImage
+    ├── DoaImage
+    └── StftImage
+
+
 ### Research Applications
 
 AVGT can support research on:
