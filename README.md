@@ -58,7 +58,6 @@ AVGT_Demo/
     ├── BevImage
     ├── DoaImage
     └── StftImage
-
 ```
 
 ### Research Applications
