@@ -36,3 +36,10 @@ AVGT can support research on:
 - Acoustic-spatial interaction modeling
 
 
+## Method
+
+We propose a multimodal NLoS vehicle detection method that integrates acoustic observations and surrounding scene structures to identify occluded vehicles.
+
+**The source code will be made publicly available following the acceptance of our paper.**
+
+
