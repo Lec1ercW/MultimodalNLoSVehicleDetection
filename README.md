@@ -24,8 +24,7 @@ The complete AVGT dataset contains:
 
 This repository provides a subset of the AVGT dataset for demonstration, allowing researchers to inspect real-world multimodal recordings and their corresponding annotations.
 
-A subset of the AVGT dataset is currently available for demonstration. 
-**The full dataset will be made publicly available following the acceptance of our paper.**
+A subset of the AVGT dataset is currently available for demonstration, **with the full dataset to be released once the paper is accepted.**
 
 ### Research Applications
 
